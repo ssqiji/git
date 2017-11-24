@@ -1,0 +1,54 @@
+﻿git操作
+
+1.告诉git你是谁
+
+git config --global user.name '你的名字'
+git config --global user.email '你的邮箱号'
+
+2.初始化你要的仓库（文件夹）
+
+git init
+
+3.查看状态
+
+git status
+
+4.提交到暂存区
+
+git add 文件名或.(git add git.txt 或者 git add .)
+
+5.提交到当前分支
+
+git commit -m '提交名字'
+
+6.查看日志
+
+git log
+
+7.回退
+
+git reset --hard 序列号
+
+8.生成密钥和公钥
+
+ssh-keygen -t rsa -C '你的邮箱号'
+生成的密钥在C盘用户目录下.ssh文件中
+
+9.激活公钥
+
+ssh -T git@github.com
+输入yes
+
+10.在github上添加公钥
+
+11.本地关联github仓库
+
+git remote add origin 你的仓库ssh地址
+
+12.向github仓库提交你的文件
+
+git push
+
+13.将github上的文件克隆下来
+
+git clone 你的仓库ssh地址
