@@ -48,6 +48,8 @@ git remote add origin 你的仓库ssh地址
 12.向github仓库提交你的文件
 
 git push
+git push -f
+git push master
 
 13.将github上的文件克隆下来
 
