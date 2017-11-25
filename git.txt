@@ -54,3 +54,7 @@ git push master
 13.将github上的文件克隆下来
 
 git clone 你的仓库ssh地址
+
+14.连接github出错，强制拉下来
+
+git pull --rebase origin master
